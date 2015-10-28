@@ -1,0 +1,19 @@
+.sm-img{
+    width:100px;
+    height:auto;
+    max-height: 80px;
+}
+.image-box{
+    padding:10px;
+    box-sizing: border-box;
+    background: #f8f8f8;
+    box-shadow: 2px 4px 2px #ccc;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+@media (min-width: 860px) {
+    .image-box{
+    width:24%
+    }
+}
